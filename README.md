@@ -1,12 +1,7 @@
-# Mintlify Starter Kit
+# SwitchFeat docs
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
-
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
+This repo contains the public docs of SwitchFeat powered by Mintlify. Any changes to the main branch of this repo are going to be automatically deployed and 
+visible in the project documentation.
 
 ### 👩‍💻 Development
 
