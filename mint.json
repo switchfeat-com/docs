@@ -1,9 +1,9 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "SwitchFeat",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/images/logo-long.png",
+    "light": "/images/logo-long.png"
   },
   "favicon": "/favicon.png",
   "colors": {
@@ -11,15 +11,9 @@
     "light": "#81D7F7",
     "dark": "#004E7A"
   },
-  "topbarLinks": [
-    {
-      "name": "Documentation",
-      "url": "https://mintlify.com/docs"
-    }
-  ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "type": "github",
+    "url": "https://github.com/switchfeat-com/switchfeat"
   },
   "tabs": [
     {
@@ -31,6 +25,10 @@
     {
       "group": "Get Started",
       "pages": ["introduction", "quickstart", "development"]
+    },
+    {
+      "group": "Concepts",
+      "pages": ["concepts/flags", "concepts/segments", "concepts/rules"]
     },
     {
       "group": "Essentials",
@@ -51,9 +49,9 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "twitter": "https://twitter.com/dev_bre",
+    "github": "https://github.com/switchfeat-com/switchfeat",
+    "website": "https://switchfeat.com/"
   },
   "backgroundImage": "/background.png"
 }

@@ -1,26 +1,35 @@
 ---
-title: Introduction
-description: 'Welcome to the home of your new documentation'
+title: Overview
+description: 'SwitchFeat is an open source feature flags management platform which allows to easily control feature releases, 
+enable or disable functionalities in real-time, and perform data-driven experiments.'
 ---
 
-## Setting up
+## Key concepts
 
-The first step to world-class documentation is setting up your editing environnments.
+SwitchFeat is based on three simple concepts: Flags, Segments, Rules. Once you master those, managing your feature flags
+is going to be very easy.
 
 <CardGroup cols={2}>
   <Card
-    title="Edit Your Docs"
+    title="Flags"
     icon="pen-to-square"
-    href="https://mintlify.com/docs/quickstart"
+    href="/concepts/flags"
   >
-    Get your docs set up locally for easy development.
+    Flags are usually features that you want to switch on/off in your application. 
   </Card>
   <Card
-    title="Preview Changes"
+    title="Segments"
     icon="image"
-    href="https://mintlify.com/docs/development"
+    href="/concepts/segments"
   >
-    Preview your changes before you push to make sure they're perfect.
+    Segments group multiple users together to share feature visibility or other traits.
+  </Card>
+   <Card
+    title="Rules"
+    icon="image"
+    href="/concepts/rules"
+  >
+    Rules are a set of segments which could be assigned to one or more flags.
   </Card>
 </CardGroup>
 
