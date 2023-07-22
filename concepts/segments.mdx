@@ -1,1 +1,31 @@
+---
+title: Segments
+description: 'Segments define how a subset of users can be grouped together to share visibility on some features.'
+---
+
+A segment can be imagined as a container of user traits. 
+If a user satisfies all or at-least-one of those conditions, they will be logically assigned to such segment.
+
+![segments ui](/images/segments-1.png)
+
+
+## Segment conditions
+
+A segment is made up of one or multiple conditions which define the structure of the segment itself.
+
+The main property of a condition is the `context`. It is basically the user trait that need to be processed to evaluate if the current user can be assigned to the current segment.
+
+SwitchFeat support the following set of condition types:
+
+- **boolean**
+- **string**
+- **numeric**
+- **datetime**
+
+Each of those condition type have a specific set of operators that can be evaluated against the given context to assign the user to the segment.
+
+SwitchFeat allows to configure how conditions should match in order to assign a user to the segment. There are currently two matching criteria:
+
+- **All**: all conditions need to be satisfied.
+- **Any**: at least one condition needs to be satisfied.
 

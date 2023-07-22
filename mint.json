@@ -7,16 +7,17 @@
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#12A7D3",
-    "light": "#81D7F7",
-    "dark": "#004E7A"
+    "primary": "#74c69d",
+    "light": "#74c69d",
+    "dark": "#74c69d"
   },
   "topbarCtaButton": {
     "type": "github",
     "url": "https://github.com/switchfeat-com/switchfeat"
   },
-  "tabs": [
+  "anchors": [
     {
+      "icon": "code",
       "name": "API Reference",
       "url": "api-reference"
     }
@@ -35,12 +36,27 @@
       "pages": ["api-reference/authentication"]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Flags endpoint",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
+        "api-reference/endpoint/flags/get",
+        "api-reference/endpoint/flags/create",
+        "api-reference/endpoint/flags/update",
+        "api-reference/endpoint/flags/delete"
+      ]
+    },
+    {
+      "group": "Segments endpoint",
+      "pages": [
+        "api-reference/endpoint/segments/get",
+        "api-reference/endpoint/segments/create",
+        "api-reference/endpoint/segments/update",
+        "api-reference/endpoint/segments/delete"
+      ]
+    },
+    {
+      "group": "SDK enpoints",
+      "pages": [
+        "api-reference/endpoint/sdk/evaluate"
       ]
     }
   ],
